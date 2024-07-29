@@ -1,0 +1,38 @@
+{
+  "userId": "string",
+  "name": "string",
+  "email": "string",
+  "courseId": "string",
+  "education": "string",
+  "courses": [
+    {
+      "courseId": "string",
+      "courseName": "string",
+      "courseDescription": "string",
+      "userId": "string",
+      "courseDuration": "string",
+      "assessmentID": "string",
+      "assessments": [
+        {
+          "assessmentId": "string",
+          "assessmentName": "string",
+          "assessmentDescription": "string",
+          "assessmentType": "string",
+          "assessmentDuration": "string",
+          "courseID": "string",
+          "resultId": "string",
+          "results": [
+            {
+              "resultId": "string",
+              "result": "string",
+              "assessmentId": "string",
+              "resultduration": "string",
+              "resultdate": "string",
+              "cutOffPercentage": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
